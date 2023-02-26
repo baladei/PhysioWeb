@@ -1,0 +1,21 @@
+#sidebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffb8ff;
+    color: #c869cf;
+    padding: 1rem;
+}
+
+.title svg {
+    color: #cdffff;
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    color: #c869cf;
+}
