@@ -1,0 +1,18 @@
+.treatments {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.treatments button {
+    background: #cdffff;
+    color: #fa52e1;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    gap: 2rem;
+}

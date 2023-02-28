@@ -4,7 +4,7 @@
     align-items: center;
     text-align: center;
     background-color: #ffb8ff;
-    color: #c869cf;
+    color: #b709f7;
     padding: 1rem;
 }
 
@@ -13,9 +13,20 @@
     font-size: 2rem;
 }
 
+.title h2 {
+    background: linear-gradient(90deg, #fa52e1 0%, #b709f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .menu {
     display: flex;
     gap: 1rem;
     font-weight: bold;
-    color: #c869cf;
+}
+
+.menu h3:hover {
+    color: #cdffff;
+    transition: 1s;
+    cursor: pointer;
 }
