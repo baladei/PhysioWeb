@@ -12,7 +12,31 @@
     background: #cdffff;
     color: #fa52e1;
     border: none;
-    border-radius: 10px;
+    border-radius: 30%;
     padding: .5rem;
     gap: 2rem;
+}
+
+.bodily {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bodily img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.facials {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+}
+
+.facials img {
+    height: 40vh;
 }
