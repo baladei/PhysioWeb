@@ -29,3 +29,8 @@
 #social-networks #facebook {
     color: #1B74E4
 }
+
+#social-networks a:hover {
+    font-size: 1.3rem;
+    transition: 1s;
+}

@@ -15,6 +15,8 @@
     border-radius: 30%;
     padding: .5rem;
     gap: 2rem;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .bodily {
@@ -31,12 +33,13 @@
 
 .facials {
     display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
     gap: 2rem;
-    width: 100vw;
 }
 
 .facials img {
-    height: 40vh;
+    height: 50vh;
+    width: 50vw;
 }
