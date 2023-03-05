@@ -1,34 +1,57 @@
 .treatments {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
     gap: 2rem;
     padding: 2rem;
     font-size: 1.5rem;
+    border: thick double #d6d6d6;
+    margin: 1rem;
+}
+
+.treatments h1 {
+    font-weight: bold;
+}
+
+.treatments h1, .treatments h2 {
+    color: #fa52e1;
+}
+
+.treatments img {
+    border-radius: 15px;
+    height: 50vh;
+    width: 50vw;
 }
 
 .treatments button {
     background: #cdffff;
     color: #fa52e1;
     border: none;
-    border-radius: 30%;
+    border-radius: 10px;
     padding: .5rem;
     gap: 2rem;
     font-weight: bold;
     cursor: pointer;
+    width: 50vw;
 }
 
+.treatments button:hover {
+    background: #ffb8ff;
+    color: #cdffff;
+    transition: 1s;
+}
 .bodily {
     display: flex;
     text-align: center;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
 }
 
-.bodily img {
-    width: 50vw;
-    height: 50vh;
+.text-bodily p {
+    padding: 1rem;
 }
 
 .facials {
@@ -37,9 +60,11 @@
     text-align: center;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-top: thick double #999;
 }
 
-.facials img {
-    height: 50vh;
-    width: 50vw;
+.text-facials p {
+    padding: 1rem;
 }
