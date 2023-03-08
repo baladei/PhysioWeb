@@ -12,10 +12,6 @@ function App() {
     <div className="App">
       <Sidebar />
       <Main />
-      <About />
-      <Treatments />
-      <Doubt />
-      <Contact />
     </div>
   )
 }
