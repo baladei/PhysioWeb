@@ -10,6 +10,7 @@ import { Treatments } from './components/Treatments'
 import { Contact } from './components/Contact'
 import { Doubt } from './components/Doubt'
 import { Sidebar } from './components/Sidebar'
+import { Footer } from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route exact path='doubt' element={<Doubt />} />
         <Route exact path='contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
 )

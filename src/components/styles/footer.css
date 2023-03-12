@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #ffb8ff;
+    padding: 1.5rem;
+    color: #b709f7;
+    font-weight: bold;
+}
+
+.whatsapp {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.whatsapp svg {
+    color: green;
+    font-size: 2rem;
+}
+
+.telefone {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.telefone svg {
+    color: yellow;
+    font-size: 2rem;
+}
+
+.endereco {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.endereco svg {
+    color: red;
+    font-size: 2rem;
+}
+
+.email {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+
+.email svg {
+    color: turquoise;
+    font-size: 2rem;
+}
