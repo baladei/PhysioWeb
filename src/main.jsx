@@ -9,17 +9,18 @@ import { About } from './components/About'
 import { Treatments } from './components/Treatments'
 import { Contact } from './components/Contact'
 import { Doubt } from './components/Doubt'
+import { Sidebar } from './components/Sidebar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+    <Sidebar />
       <Routes>
-        <Route path='/' element={<App />}>
-        <Route path='about' element={<About />} />
-        <Route path='treatments' element={<Treatments />} />
-        <Route path='doubt' element={<Doubt />} />
-        <Route path='contact' element={<Contact />} />
-        </Route>
+        <Route exact path='/' element={<App />} />
+        <Route exact path='about' element={<About />} />
+        <Route exact path='treatments' element={<Treatments />} />
+        <Route exact path='doubt' element={<Doubt />} />
+        <Route exact path='contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
