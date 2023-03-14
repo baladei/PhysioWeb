@@ -4,10 +4,10 @@ import './styles/footer.css'
 export const Footer = () => {
   return (
     <div className='footer'>
-        <div className="whatsapp"><FaWhatsapp />WhatsApp</div>
-        <div className="telefone"><FaPhone />Telefone</div>
-        <div className="endereco"><FaMapMarkerAlt />Endereço</div>
-        <div className="email"><FaMailBulk />E-Mail</div>
+        <div className="whatsapp"><FaWhatsapp />WhatsApp <p>(19) 99237-8933</p></div>
+        <div className="telefone"><FaPhone />Telefone <p>(19) 99237-8933</p></div>
+        <div className="endereco"><FaMapMarkerAlt />Endereço <p>São Paulo - SP</p></div>
+        <div className="email"><FaMailBulk />E-mail <p>karina.car.leticia@gmail.com</p></div>
     </div>
   )
 }

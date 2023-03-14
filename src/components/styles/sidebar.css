@@ -3,20 +3,23 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    background-color: #ffb8ff;
-    color: #b709f7;
+    background-color: #ffd5ff;
+    color: #fa52e1;
     padding: 1rem;
+    border: 1px solid #ff00d9;
 }
 
 .title svg {
-    color: #cdffff;
+    color: #fa52e1;
     font-size: 2rem;
 }
 
 .title h2 {
-    background: linear-gradient(90deg, #fa52e1 0%, #b709f7 100%);
+    background: linear-gradient(90deg, #fa52e1 0%, #ff00d9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-style: italic;
 }
 
 .menu {
@@ -26,7 +29,6 @@
 }
 
 .menu h3:hover {
-    color: #cdffff;
-    transition: 1s;
+    color: #ff00d9;
     cursor: pointer;
 }
