@@ -1,0 +1,25 @@
+.doubt {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+
+.doubt h2 {
+    text-align: center;
+    color: #fa52e1;    
+}
+
+.doubt p {
+    text-align: justify;
+    border-bottom: thick double #DCDCDC;
+    padding-bottom: 4rem;
+}
+
+.end p {
+    border: none;
+    padding-top: 3rem;
+}

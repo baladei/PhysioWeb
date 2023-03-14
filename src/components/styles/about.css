@@ -12,13 +12,11 @@
 }
 
 .about h2 {
-    background: linear-gradient(90deg, #fa52e1 0%, #b709f7 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fa52e1;    
 }
 
-.about h3 {
-    color: #b709f7;
+.about span {
+    font-style: italic;
 }
 
 .about img {
