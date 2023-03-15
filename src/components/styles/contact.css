@@ -1,9 +1,57 @@
 .contact {
-    display: flex;
-    flex-direction: column;
     font-size: 1.5rem;
-    gap: 3rem;
     padding: 2rem;
     margin: 2rem;
     box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+
+.contact label {
+    padding-right: .5rem;
+    color: #fa52e1;
+}
+
+.contact input {
+    padding: 0rem .5rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 3rem;
+    border: 3px solid #ffd5ff;
+}
+
+.form legend {
+    text-align: center;
+    color: #fa52e1;
+    padding: 0rem 1rem;
+}
+
+.form input {
+    border: 2px solid #ffd5ff;
+}
+
+.form textarea {
+    border: 2px solid #ffd5ff;
+    resize: none;
+}
+
+.form button {
+    background: #cdffff;
+    color: #fa52e1;
+    border: none;
+    border-radius: 10px;
+    padding: .5rem;
+    gap: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.form button:hover {
+    background: #ffb8ff;
+    color: #cdffff;
+    transition: 1s;
 }

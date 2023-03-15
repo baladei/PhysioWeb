@@ -31,4 +31,6 @@
 .menu h3:hover {
     color: #ff00d9;
     cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
 }
