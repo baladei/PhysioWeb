@@ -32,9 +32,17 @@
     border: 2px solid #ffd5ff;
 }
 
+.form input:focus {
+    outline : 1px solid #fa52e1;
+}
+
 .form textarea {
     border: 2px solid #ffd5ff;
     resize: none;
+}
+
+.form textarea:focus {
+    outline : 1px solid #fa52e1;
 }
 
 .form button {
