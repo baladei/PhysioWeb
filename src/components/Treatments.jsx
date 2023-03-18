@@ -15,7 +15,7 @@ export const Treatments = () => {
             </div>
            
         </div>
-        <button>Veja Mais</button>
+        <a href="https://www.educamaisbrasil.com.br/educacao/carreira/o-que-um-fisioterapeuta-dermatofuncional-faz" target={"_blank"}><button>Veja Mais</button></a>
 
         <div className="facials">
             <div className="text-facials">
@@ -27,7 +27,7 @@ export const Treatments = () => {
           
             <img src="https://unicathedral.edu.br/vestibulares/wp-content/uploads/sites/30/2021/12/8-768x614.png" alt="" />
         </div>
-        <button>Veja Mais</button>
+        <a href="https://www.educamaisbrasil.com.br/educacao/carreira/o-que-um-fisioterapeuta-dermatofuncional-faz" target={"_blank"}><button>Veja Mais</button></a>
 
     </div>
   )

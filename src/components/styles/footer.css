@@ -1,13 +1,19 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    text-align: center;
     background-color: #ffd5ff;
     padding: 2rem 4rem;
     color: #fa52e1;
     font-weight: bold;
     border: 1px solid #ff00d9;
+}
+
+.footer a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: .5rem;
 }
 
 .footer p {
@@ -21,23 +27,9 @@
     border: 1px solid #ff00d9;
 }
 
-.whatsapp {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    align-items: center;
-}
-
 .whatsapp svg {
     color: green;
     font-size: 2rem;
-}
-
-.telefone {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    align-items: center;
 }
 
 .telefone svg {
@@ -45,23 +37,9 @@
     font-size: 2rem;
 }
 
-.endereco {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    align-items: center;
-}
-
 .endereco svg {
     color: red;
     font-size: 2rem;
-}
-
-.email {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    align-items: center;
 }
 
 .email svg {
